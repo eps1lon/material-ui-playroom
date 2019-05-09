@@ -1,0 +1,22 @@
+{
+  "name": "material-ui-playroom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "playroom start",
+    "build": "playroom build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^4.0.0-beta.1",
+    "@material-ui/icons": "^4.0.0-beta.0",
+    "@material-ui/styles": "^4.0.0-beta.1",
+    "babel-loader": "^8.0.4",
+    "playroom": "^0.9.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
