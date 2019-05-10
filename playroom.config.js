@@ -33,9 +33,11 @@ module.exports = {
     if (process.env.PT_PROJECT_TOKEN) {
       plugins.push(
         new PacktrackerPlugin({
-          project_token: process.env.PT_PROJECT_TOKEN,
           upload: true,
-          fail_build: true
+          fail_build: true,
+          // provided by netlify
+          project_token: process.env.PT_PROJECT_TOKEN,
+          branch: process.env.BRANCH
         })
       );
     }
