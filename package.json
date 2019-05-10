@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "playroom start",
-    "build": "playroom build"
+    "build": "playroom build",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@babel/core": "^7.1.6",
@@ -15,8 +16,14 @@
     "@material-ui/icons": "^4.0.0-beta.0",
     "@material-ui/styles": "^4.0.0-beta.1",
     "babel-loader": "^8.0.4",
+    "parse-prop-types": "^0.3.0",
     "playroom": "^0.9.1",
+    "postinstall-postinstall": "^2.0.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-is": "^16.8.6"
+  },
+  "devDependencies": {
+    "patch-package": "^6.1.2"
   }
 }
