@@ -48,7 +48,7 @@ const demos = glob
 const requireDemosSource = `module.exports = {
 ${demos
   .map(requirePath => {
-    return `  ${getDemoName(
+    return `  Demo${getDemoName(
       requirePath
     )}: require("${requirePath}").default`;
   })
