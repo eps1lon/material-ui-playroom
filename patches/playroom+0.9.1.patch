@@ -1,0 +1,21 @@
+diff --git a/node_modules/playroom/lib/makeWebpackConfig.js b/node_modules/playroom/lib/makeWebpackConfig.js
+index 312ff42..7782f5f 100644
+--- a/node_modules/playroom/lib/makeWebpackConfig.js
++++ b/node_modules/playroom/lib/makeWebpackConfig.js
+@@ -3,7 +3,7 @@ const webpack = require('webpack');
+ const merge = require('webpack-merge');
+ const HtmlWebpackPlugin = require('html-webpack-plugin');
+ const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
+-const getStaticTypes = require('./getStaticTypes');
++const getStaticTypesWithReactDocgenTypescript = require('./getStaticTypes');
+ const makeDefaultWebpackConfig = require('./makeDefaultWebpackConfig');
+ 
+ const playroomPath = path.resolve(__dirname, '..');
+@@ -16,6 +16,7 @@ module.exports = async (playroomConfig, options) => {
+   const relativeResolve = requirePath =>
+     require.resolve(requirePath, { paths: [playroomConfig.cwd] });
+ 
++  const { getStaticTypes = getStaticTypesWithReactDocgenTypescript } = playroomConfig;
+   const staticTypes = await getStaticTypes(playroomConfig);
+ 
+   const devServerEntries = options.production
