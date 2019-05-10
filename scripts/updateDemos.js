@@ -18,10 +18,8 @@ function getDemoName(requirePath) {
   return path.basename(requirePath, ".js");
 }
 
-/**
- * these demos have a dependency on th docs src
- */
 const demoBlacklist = [
+  // these demos have a dependency on th docs src
   "ChipsPlayground",
   "InteractiveGrid",
   "BreakpointDown",
@@ -29,7 +27,9 @@ const demoBlacklist = [
   "BreakpointUp",
   "GridIntegration",
   "AnchorPlayground",
-  "ScrollPlayground"
+  "ScrollPlayground",
+  // empty
+  "SvgMaterialIconsAll"
 ];
 function shouldKeepDemo(requirePath) {
   return (
@@ -48,7 +48,9 @@ const demos = glob
 const requireDemosSource = `module.exports = {
 ${demos
   .map(requirePath => {
-    return `  ${getDemoName(requirePath)}: require("${requirePath}").default`;
+    return `  ${getDemoName(
+      requirePath
+    )}: require("${requirePath}").default`;
   })
   .join(",\n")}    
 };\n`;

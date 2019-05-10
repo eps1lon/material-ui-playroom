@@ -98,7 +98,6 @@ module.exports = {
   Icons: require("../material-ui/docs/src/pages/components/icons/Icons.js").default,
   SvgIcons: require("../material-ui/docs/src/pages/components/icons/SvgIcons.js").default,
   SvgMaterialIcons: require("../material-ui/docs/src/pages/components/icons/SvgMaterialIcons.js").default,
-  SvgMaterialIconsAll: require("../material-ui/docs/src/pages/components/icons/SvgMaterialIconsAll.js").default,
   ButtonLink: require("../material-ui/docs/src/pages/components/links/ButtonLink.js").default,
   LinkRouter: require("../material-ui/docs/src/pages/components/links/LinkRouter.js").default,
   Links: require("../material-ui/docs/src/pages/components/links/Links.js").default,
