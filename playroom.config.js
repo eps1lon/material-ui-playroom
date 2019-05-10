@@ -49,33 +49,13 @@ module.exports = {
     }
   }),
   exampleCode: `
-  <div style={{ flexGrow: 1 }}>
-  <AppBar position="static">
-    <Toolbar>
-      <IconButton
-        color="inherit"
-        aria-label="Menu"
-        style={{
-          marginLeft: -12,
-          marginRight: 20
-        }}
-      >
-        <MenuIcon />
-      </IconButton>
-      <Typography variant="h6" color="inherit" style={{ flexGrow: 1 }}>
-        News
-      </Typography>
-      <Button color="inherit">Login</Button>
-    </Toolbar>
-  </AppBar>
-</div>
-<br />
-<Button color="primary" variant="contained">
-  Primary
-</Button>
-<Button color="secondary" variant="contained">
-  secondary
-</Button>
-
+<DemoPrimarySearchAppBar />
+<Typography variant="h4">Material-UI Playroom</Typography>
+<List>
+  <ListItem>components are not prefixed</ListItem>
+  <ListItem>Demos (composite components) are prefixed with 'Demo'</ListItem>
+  <ListItem>Some icons are included and prefixed with 'Icon'</ListItem>
+</List>
+<DemoBottomAppBar />
   `
 };
