@@ -27,6 +27,27 @@ module.exports = {
       })
     );
   },
+  webpackConfig: playroomConfig => ({
+    module: {
+      rules: [
+        {
+          test: /\.jsx?$/,
+          exclude: /node_modules/,
+          use: {
+            loader: require.resolve("babel-loader"),
+            options: {
+              presets: ["@babel/preset-env", "@babel/preset-react"],
+              // need this for hot reloading the demo source
+              plugins: ["@babel/plugin-proposal-class-properties"]
+            }
+          }
+        }
+      ]
+    },
+    node: {
+      fs: "empty"
+    }
+  }),
   exampleCode: `
   <div style={{ flexGrow: 1 }}>
   <AppBar position="static">
