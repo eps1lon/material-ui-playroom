@@ -1,5 +1,6 @@
 const ReactIs = require("react-is");
 const { default: parsePropTypes } = require("parse-prop-types");
+const PacktrackerPlugin = require("@packtracker/webpack-plugin");
 
 module.exports = {
   title: "Material-UI",
@@ -27,27 +28,41 @@ module.exports = {
       })
     );
   },
-  webpackConfig: playroomConfig => ({
-    module: {
-      rules: [
-        {
-          test: /\.jsx?$/,
-          exclude: /node_modules/,
-          use: {
-            loader: require.resolve("babel-loader"),
-            options: {
-              presets: ["@babel/preset-env", "@babel/preset-react"],
-              // need this for hot reloading the demo source
-              plugins: ["@babel/plugin-proposal-class-properties"]
+  webpackConfig: playroomConfig => {
+    const plugins = [];
+    if (process.env.PT_PROJECT_TOKEN) {
+      plugins.push(
+        new PacktrackerPlugin({
+          project_token: process.env.PT_PROJECT_TOKEN,
+          upload: true,
+          fail_build: true
+        })
+      );
+    }
+
+    return {
+      module: {
+        rules: [
+          {
+            test: /\.jsx?$/,
+            exclude: /node_modules/,
+            use: {
+              loader: require.resolve("babel-loader"),
+              options: {
+                presets: ["@babel/preset-env", "@babel/preset-react"],
+                // need this for hot reloading the demo source
+                plugins: ["@babel/plugin-proposal-class-properties"]
+              }
             }
           }
-        }
-      ]
-    },
-    node: {
-      fs: "empty"
-    }
-  }),
+        ]
+      },
+      node: {
+        fs: "empty"
+      },
+      plugins
+    };
+  },
   exampleCode: `
 <DemoPrimarySearchAppBar />
 <Typography variant="h4">Material-UI Playroom</Typography>
