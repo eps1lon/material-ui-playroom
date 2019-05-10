@@ -53,8 +53,8 @@ module.exports = {
 <Typography variant="h4">Material-UI Playroom</Typography>
 <List>
   <ListItem>components are not prefixed</ListItem>
-  <ListItem>Demos (composite components) are prefixed with `Demo`</ListItem>
-  <ListItem>Some icons are included and prefixed with `Icon`</ListItem>
+  <ListItem>Demos (composite components) are prefixed with 'Demo'</ListItem>
+  <ListItem>Some icons are included and prefixed with 'Icon'</ListItem>
 </List>
 <DemoBottomAppBar />
   `
