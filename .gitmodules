@@ -1,0 +1,3 @@
+[submodule "material-ui"]
+	path = material-ui
+	url = https://github.com/mui-org/material-ui.git
