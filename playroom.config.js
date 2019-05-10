@@ -1,3 +1,6 @@
+const ReactIs = require("react-is");
+const { default: parsePropTypes } = require("parse-prop-types");
+
 module.exports = {
   title: "Material-UI",
   outputPath: "./dist/playroom",
@@ -5,6 +8,25 @@ module.exports = {
   themes: "./playroom/themes.js",
   frameComponent: "./playroom/FrameComponent.js",
   widths: [320, 375, 768, 1024],
+  getStaticTypes(playroomConfig) {
+    const components = require(playroomConfig.components);
+
+    return Object.fromEntries(
+      Object.entries(components).map(([name, maybeElementType]) => {
+        let props = maybeElementType;
+
+        const isWithStylesDecorated =
+          ReactIs.isValidElementType(maybeElementType) &&
+          maybeElementType.Naked;
+
+        if (isWithStylesDecorated) {
+          props = parsePropTypes(maybeElementType.Naked);
+        }
+
+        return [name, props];
+      })
+    );
+  },
   exampleCode: `
   <div style={{ flexGrow: 1 }}>
   <AppBar position="static">
