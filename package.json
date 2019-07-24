@@ -39,7 +39,7 @@
     "react-dom": "^16.8.6",
     "react-draggable": "^3.3.0",
     "react-is": "^16.8.6",
-    "react-number-format": "^4.0.7",
+    "react-number-format": "^4.0.8",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.1",
     "react-select": "^2.4.3",
