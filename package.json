@@ -34,7 +34,7 @@
     "material-ui-popup-state": "^1.4.0",
     "notistack": "^0.8.9",
     "parse-prop-types": "^0.3.0",
-    "playroom": "^0.9.1",
+    "playroom": "^0.9.3",
     "postinstall-postinstall": "^2.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
