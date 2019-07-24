@@ -45,7 +45,7 @@
     "react-select": "^2.4.3",
     "react-swipeable-views": "^0.13.3",
     "react-virtualized": "^9.21.1",
-    "react-window": "^1.8.1"
+    "react-window": "^1.8.5"
   },
   "devDependencies": {
     "@packtracker/webpack-plugin": "^2.1.2",
