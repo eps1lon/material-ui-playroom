@@ -20,7 +20,7 @@
     "@material-ui/lab": "^4.0.0-alpha.10",
     "@material-ui/styles": "^4.0.0-beta.1",
     "autosuggest-highlight": "^3.1.1",
-    "babel-loader": "^8.0.4",
+    "babel-loader": "^8.0.6",
     "css-mediaquery": "^0.1.2",
     "date-fns": "^2.0.0-alpha.27",
     "downshift": "^3.2.10",
