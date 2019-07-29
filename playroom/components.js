@@ -1,5 +1,6 @@
 const babel = require("@babel/core");
-const components = require("@material-ui/core");
+const coreComponents = require("@material-ui/core");
+const labComponents = require("@material-ui/lab");
 const IconMenu = require("@material-ui/icons/Menu").default;
 
 require("@babel/register")({
@@ -9,7 +10,8 @@ require("@babel/register")({
 const demos = require("./demos");
 
 module.exports = {
-  ...components,
+  ...coreComponents,
+  ...labComponents,
   ...demos,
   IconMenu
 };
