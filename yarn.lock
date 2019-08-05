@@ -844,7 +844,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.3.tgz#dfa0c92efe44a1d1a7974fb49ffeb40ef2da5a27"
   integrity sha512-zVgvPwGK7c1aVdUVc9Qv7SqepOGRDrqCw7KZPSZziWGxSlbII3gmvGLPzLX4d0n0BMbamBacUrN22zOMyFFEkQ==
 
-"@material-ui/core@^4.0.1", "@material-ui/core@^4.3.0":
+"@material-ui/core@^4.3.0":
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-4.3.0.tgz#ce44f7fad736f44b70f6d44d390ba8b848fcfca0"
   integrity sha512-KAYvvq8Z/uP4zvdF3Adi53OfjmcnLiIi+KXb0vROkZ+soYkRQcw6X7VoCuQNwL7Sp7Rr1SSFTxgtJ3G+YBSVyA==
@@ -4555,13 +4555,12 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-material-table@^1.42.0:
-  version "1.42.0"
-  resolved "https://registry.yarnpkg.com/material-table/-/material-table-1.42.0.tgz#be2e1b0e42680544186aa6fce14456773ac32455"
-  integrity sha512-SS4l8F1Hbx+/O1VzTDp+X0a8Ku/7CyQEXL5ciRtkGwQQe2xVMQRY6FVfiAWJBqedY6B24DagBAVmtSWmUvGGJA==
+material-table@^1.43.0:
+  version "1.43.0"
+  resolved "https://registry.yarnpkg.com/material-table/-/material-table-1.43.0.tgz#e105f2728355c367a1bc7c3702802641217ac71d"
+  integrity sha512-dClMZV37edjMMISWsTl2eIbHM+Br5hKs1s49ZfrYzXHRxgXzQu3Kyqnl+cMtytJJNiCazUZn052oTneClalCGw==
   dependencies:
     "@date-io/date-fns" "^1.1.0"
-    "@material-ui/core" "^4.0.1"
     "@material-ui/pickers" "^3.0.0"
     classnames "^2.2.6"
     date-fns "^2.0.0-alpha.27"
