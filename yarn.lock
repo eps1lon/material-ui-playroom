@@ -750,10 +750,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@date-io/core@^1.3.8":
-  version "1.3.8"
-  resolved "https://registry.yarnpkg.com/@date-io/core/-/core-1.3.8.tgz#a20da7125f1444631dd96a6e8baa8982665aaa95"
-  integrity sha512-XlvpzhipF/badZEJPAfgXRX9bFG2UpFl1T6O0hn1RzWJf3yexf9/M2wcEm6jh7RVyrlSayttkXtGPqVPdoJQ7Q==
+"@date-io/core@^1.3.8", "@date-io/core@^1.3.9":
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/@date-io/core/-/core-1.3.9.tgz#c8483399782ab6cff776b50a0c05edecf9744219"
+  integrity sha512-pGZK4DJcXUKHFDWws/smJXgmeHyaVyOFPQqDsYXoxg6rYTU/S+NEVTQnoYOFgrlJ8dkgjZ89D9d3Qx1V925OGw==
 
 "@date-io/date-fns@^1.1.0", "@date-io/date-fns@^1.3.8":
   version "1.3.8"
