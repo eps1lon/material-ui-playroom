@@ -6222,10 +6222,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-material-table@^1.46.0:
-  version "1.46.0"
-  resolved "https://registry.yarnpkg.com/material-table/-/material-table-1.46.0.tgz#38ab385271cd7e5f92007cc65d0efa558f232c35"
-  integrity sha512-S8gYxnhsTIIGllE3LyolWMhVVfMTbzUqZmVuR4wNNjNpbImfppOCv3923/M8YRuEktGYHXrP6rBPwn0AdRsCDw==
+material-table@^1.47.0:
+  version "1.47.0"
+  resolved "https://registry.yarnpkg.com/material-table/-/material-table-1.47.0.tgz#756d2af191cd0fb291eb29e99bdb07a4ade764cc"
+  integrity sha512-Kx9IyMcatw4GeTB9hEUayA/AFIYb6ut62Asf1qK0OCXeAFf+PYB3vReYKNPk1FgnXY7EsxtNtrcmuGVdnBdHrQ==
   dependencies:
     "@date-io/date-fns" "^1.1.0"
     "@material-ui/pickers" "^3.0.0"
