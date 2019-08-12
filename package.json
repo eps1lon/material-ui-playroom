@@ -52,7 +52,7 @@
     "react-window": "^1.8.5"
   },
   "devDependencies": {
-    "@packtracker/webpack-plugin": "^2.1.2",
+    "@packtracker/webpack-plugin": "^2.2.0",
     "patch-package": "^6.1.2"
   }
 }
