@@ -1637,7 +1637,7 @@
     prop-types "^15.7.2"
     warning "^4.0.3"
 
-"@material-ui/pickers@^3.0.0", "@material-ui/pickers@^3.2.2":
+"@material-ui/pickers@^3.2.2":
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/@material-ui/pickers/-/pickers-3.2.2.tgz#9b7a67f5a8f21f8183853ebc1848e5d8dd680d4c"
   integrity sha512-on/J1yyKeJ4CkLnItpf/jPDKMZVWvHDklkh5FS7wkZ0s1OPoqTsPubLWfA7eND6xREnVRyLFzVTlE3VlWYdQWw==
@@ -6222,13 +6222,13 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-material-table@^1.47.0:
-  version "1.47.0"
-  resolved "https://registry.yarnpkg.com/material-table/-/material-table-1.47.0.tgz#756d2af191cd0fb291eb29e99bdb07a4ade764cc"
-  integrity sha512-Kx9IyMcatw4GeTB9hEUayA/AFIYb6ut62Asf1qK0OCXeAFf+PYB3vReYKNPk1FgnXY7EsxtNtrcmuGVdnBdHrQ==
+material-table@^1.50.0:
+  version "1.50.0"
+  resolved "https://registry.yarnpkg.com/material-table/-/material-table-1.50.0.tgz#16afabae311f768382b5884d34a230984a687933"
+  integrity sha512-N7JH/YkAUHHddqIP/t3vtRLtbK5zsnyzCvjdwaVO8KbtzKA9kYgjxpuNZ/waHwdL4Fa55rZgP7fYYbMioByi9g==
   dependencies:
     "@date-io/date-fns" "^1.1.0"
-    "@material-ui/pickers" "^3.0.0"
+    "@material-ui/pickers" "^3.2.2"
     classnames "^2.2.6"
     date-fns "^2.0.0-alpha.27"
     debounce "^1.2.0"
