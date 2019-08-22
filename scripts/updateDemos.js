@@ -28,6 +28,7 @@ const demoBlacklist = [
   "GridIntegration",
   "AnchorPlayground",
   "ScrollPlayground",
+  "SearchIcons",
   // empty
   "SvgMaterialIconsAll"
 ];

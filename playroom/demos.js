@@ -117,7 +117,6 @@ module.exports = {
   DemoSimpleList: require("../material-ui/docs/src/pages/components/lists/SimpleList.js").default,
   DemoSwitchListSecondary: require("../material-ui/docs/src/pages/components/lists/SwitchListSecondary.js").default,
   DemoVirtualizedList: require("../material-ui/docs/src/pages/components/lists/VirtualizedList.js").default,
-  DemoSearchIcons: require("../material-ui/docs/src/pages/components/material-icons/SearchIcons.js").default,
   Demosynonyms: require("../material-ui/docs/src/pages/components/material-icons/synonyms.js").default,
   DemoCustomizedMenus: require("../material-ui/docs/src/pages/components/menus/CustomizedMenus.js").default,
   DemoFadeMenu: require("../material-ui/docs/src/pages/components/menus/FadeMenu.js").default,
