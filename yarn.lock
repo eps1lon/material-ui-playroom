@@ -1637,10 +1637,10 @@
     prop-types "^15.7.2"
     warning "^4.0.3"
 
-"@material-ui/pickers@^3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@material-ui/pickers/-/pickers-3.2.2.tgz#9b7a67f5a8f21f8183853ebc1848e5d8dd680d4c"
-  integrity sha512-on/J1yyKeJ4CkLnItpf/jPDKMZVWvHDklkh5FS7wkZ0s1OPoqTsPubLWfA7eND6xREnVRyLFzVTlE3VlWYdQWw==
+"@material-ui/pickers@^3.2.2", "@material-ui/pickers@^3.2.3":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@material-ui/pickers/-/pickers-3.2.3.tgz#84ef0262f15d882d36bcee3b16d1ac480fb53c04"
+  integrity sha512-qtFmEyP6vKUSAbpBkgKlZkeCZgll0YEQZu351k/Ates57UYLeoJyM2CNCsRxif1w91qVoYB7CPskIdUrCpcMmg==
   dependencies:
     "@babel/runtime" "^7.2.0"
     "@types/styled-jsx" "^2.2.8"
