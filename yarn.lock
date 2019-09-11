@@ -7806,10 +7806,10 @@ react-double-scrollbar@0.0.15:
   resolved "https://registry.yarnpkg.com/react-double-scrollbar/-/react-double-scrollbar-0.0.15.tgz#e915ab8cb3b959877075f49436debfdb04288fe4"
   integrity sha1-6RWrjLO5WYdwdfSUNt6/2wQoj+Q=
 
-react-draggable@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/react-draggable/-/react-draggable-4.0.2.tgz#569ca43b77cfcdb0790860e11f447b1a179e2d50"
-  integrity sha512-hBuWQM6z1tht+G+gVhPlKUXN8QSNlaKJo1jvXMx4Ef/U4VlO1hqbiA96/V25zW8zoOFCs6AZuvdzWYakSSG9zQ==
+react-draggable@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/react-draggable/-/react-draggable-4.0.3.tgz#6b9f76f66431c47b9070e9b805bbc520df8ca481"
+  integrity sha512-4vD6zms+9QGeZ2RQXzlUBw8PBYUXy+dzYX5r22idjp9YwQKIIvD/EojL0rbjS1GK4C3P0rAJnmKa8gDQYWUDyA==
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.6.0"
