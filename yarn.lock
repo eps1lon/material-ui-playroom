@@ -3944,10 +3944,10 @@ dot-prop@^4.1.0, dot-prop@^4.2.0:
   dependencies:
     is-obj "^1.0.0"
 
-downshift@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/downshift/-/downshift-3.3.0.tgz#7223c71cc7c1a83d52df79013b6bed4098aaa50b"
-  integrity sha512-8CmR3W9fVwgwPwhVBK72zcAW3q8mVi/ewUOssYj84fR4EF42W7o7DhPOLlYK5KRoYU224f+fQr1G6Xx/Pgpj9w==
+downshift@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/downshift/-/downshift-3.3.1.tgz#429ce98be43115664d2ea54f841d80059007b883"
+  integrity sha512-PdbDQIq7hVE9HO2fHMZA1JaoVKClNHkXIcDZAlCmXksCd7cU+demBjuYhYIXUml/8n6RejXbvXakg2mK1pbUyw==
   dependencies:
     "@babel/runtime" "^7.4.5"
     "@reach/auto-id" "^0.2.0"
