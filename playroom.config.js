@@ -62,7 +62,13 @@ module.exports = {
       node: {
         fs: "empty"
       },
-      plugins
+      plugins,
+      resolve: {
+        alias: {
+          react: require.resolve("react"),
+          "react-dom": require.resolve("react-dom")
+        }
+      }
     };
   },
   exampleCode: `
