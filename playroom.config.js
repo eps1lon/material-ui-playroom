@@ -43,7 +43,6 @@ module.exports = {
     }
 
     return {
-      devtool: "cheap-source-map",
       module: {
         rules: [
           {
