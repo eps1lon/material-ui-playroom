@@ -20,7 +20,7 @@
     "@material-ui/icons": "^4.4.3",
     "@material-ui/lab": "^4.0.0-alpha.27",
     "@material-ui/pickers": "^3.2.6",
-    "@material-ui/styles": "^4.4.3",
+    "@material-ui/styles": "^4.5.2",
     "autosuggest-highlight": "^3.1.1",
     "babel-loader": "^8.0.6",
     "css-mediaquery": "^0.1.2",
