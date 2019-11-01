@@ -32,7 +32,7 @@
     "lodash": "^4.17.11",
     "material-table": "^1.52.0",
     "material-ui-popup-state": "^1.4.1",
-    "notistack": "^0.9.2",
+    "notistack": "^0.9.5",
     "parse-prop-types": "^0.3.0",
     "playroom": "^0.9.4",
     "postinstall-postinstall": "^2.0.0",
