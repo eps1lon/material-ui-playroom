@@ -4355,7 +4355,7 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
-fast-deep-equal@^2.0.1:
+fast-deep-equal@2.0.1, fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
   integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
@@ -6252,16 +6252,17 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-material-table@^1.53.0:
-  version "1.53.0"
-  resolved "https://registry.yarnpkg.com/material-table/-/material-table-1.53.0.tgz#d6e14a71ae57ad5096ec862aff926ecd1ed995fb"
-  integrity sha512-nsPXYABMb4MQEfz1SOlQi6vFJuzZPR4AMyE/EbP26/gkHL/jsa+Z5pBG3liiHbGUy7flONckpzqYWZ3wLf5iKw==
+material-table@^1.54.1:
+  version "1.54.1"
+  resolved "https://registry.yarnpkg.com/material-table/-/material-table-1.54.1.tgz#3ffc437378dd0b1aab472e15e10ad8dc3451ec40"
+  integrity sha512-5hvNq2p2pvztG6X6wssnqkBgWMCQpK+oJcWaVcwg0OL0M3jJTqsk6LWMNbzp04eo1lkPoMzXh7As8vHZyQ2eTw==
   dependencies:
     "@date-io/date-fns" "^1.1.0"
     "@material-ui/pickers" "^3.2.2"
     classnames "^2.2.6"
     date-fns "^2.0.0-alpha.27"
     debounce "^1.2.0"
+    fast-deep-equal "2.0.1"
     filefy "0.1.10"
     prop-types "^15.6.2"
     react-beautiful-dnd "11.0.3"
