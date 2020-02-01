@@ -51,7 +51,7 @@
     "react-text-mask": "^5.4.3",
     "react-virtualized": "^9.21.2",
     "react-window": "^1.8.5",
-    "styled-components": "^4.4.1"
+    "styled-components": "^5.0.0"
   },
   "devDependencies": {
     "@packtracker/webpack-plugin": "^2.2.0",
