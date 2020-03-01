@@ -22,6 +22,7 @@ const demoBlacklist = [
   // these demos have a dependency on th docs src
   "ChipsPlayground",
   "InteractiveGrid",
+  "BadgeAlignment",
   "BreakpointDown",
   "BreakpointOnly",
   "BreakpointUp",
