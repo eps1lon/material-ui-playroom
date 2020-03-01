@@ -6,3 +6,14 @@ Clone including submodules
 - nvm use
 - yarn
 - yarn start
+
+### Bump Material-UI
+
+```bash
+$ git submodule update --init --recursive
+$ cd material-ui
+$ git checkout $VERSION
+$ cd ..
+$ node scripts/updateDemos
+# bump package.json versions
+```
