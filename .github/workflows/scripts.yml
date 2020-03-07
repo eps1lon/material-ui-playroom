@@ -5,7 +5,7 @@
 name: experimental
 on: status
 jobs:
-  if: github.event.state == "success"
+  if: github.event.state == 'success'
   build:
     runs-on: ubuntu-latest
     steps:
