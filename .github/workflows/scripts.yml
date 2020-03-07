@@ -11,7 +11,9 @@ jobs:
       - name: debug
         run: |
           echo ${{ github.event.state }}
-          echo ${{ github.event.sender }}
+          echo ${{ github.event.sender.login }}
+          echo ${{ github.event.sender.id }}
+          echo ${{ github.event.sender.type }}
           echo ${{ github.event.name }}
           echo ${{ github.event.description }}
       - name: Find PR associated with this push
