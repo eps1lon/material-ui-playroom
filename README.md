@@ -17,3 +17,4 @@ $ cd ..
 $ node scripts/updateDemos
 # bump package.json versions
 ```
+remove me
