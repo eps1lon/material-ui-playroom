@@ -18,4 +18,4 @@ jobs:
           token: ${{ secrets.MUI_SCRIPTS_INCUBATOR }}
           repository: eps1lon/mui-scripts-incubator
           event-type: a11y-snapshot
-          client-payload: '{ "pr_number": "a" }'
+          client-payload: '{ "target_url": "${{ github.event.target_url }}" }'
