@@ -9,9 +9,6 @@ jobs:
     if: github.event.state == 'success' && github.event.sender.login == 'netlify[bot]' && github.event.description == 'Deploy preview ready!'
     runs-on: ubuntu-latest
     steps:
-      - name: debug
-        run: |
-         echo ${{ toJson(github.event) }}
       - name: Run mui-scripts a11y-snapshot
         uses: peter-evans/repository-dispatch@v1
         with:
