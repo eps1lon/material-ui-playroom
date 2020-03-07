@@ -20,4 +20,4 @@ jobs:
           token: ${{ secrets.MUI_SCRIPTS_INCUBATOR }}
           repository: eps1lon/mui-scripts-incubator
           event-type: a11y-snapshot
-          client-payload: '"{ "pr_number": "${{ steps.findPr.outputs.pr }}" }"'
+          client-payload: '{ "pr_number": "${{ steps.findPr.outputs.pr }}" }'
