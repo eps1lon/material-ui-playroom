@@ -5,6 +5,7 @@
 name: experimental
 on: status
 jobs:
+  if: ${{ github.event.state }} == "success" && ${{ github.event.sender.login }} == "netlify[bot]" && ${{ github.event.description }} == "Deploy preview ready!"
   build:
     runs-on: ubuntu-latest
     steps:
