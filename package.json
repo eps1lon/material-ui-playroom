@@ -29,7 +29,7 @@
     "fg-loadcss": "^3.1.0",
     "glob": "^7.1.6",
     "json2mq": "^0.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "material-table": "^1.67.1",
     "material-ui-popup-state": "^1.5.4",
     "notistack": "^0.9.16",
