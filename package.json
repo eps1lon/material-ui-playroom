@@ -25,7 +25,7 @@
     "babel-loader": "^8.1.0",
     "cross-fetch": "^3.0.4",
     "css-mediaquery": "^0.1.2",
-    "date-fns": "^2.14.0",
+    "date-fns": "^2.15.0",
     "fg-loadcss": "^3.1.0",
     "glob": "^7.1.6",
     "json2mq": "^0.2.0",
