@@ -52,7 +52,7 @@
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
-    "@packtracker/webpack-plugin": "^2.2.0",
+    "@packtracker/webpack-plugin": "^2.3.0",
     "patch-package": "^6.2.2"
   }
 }
