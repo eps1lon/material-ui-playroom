@@ -5312,10 +5312,10 @@ normalize-url@1.9.1:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-notistack@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/notistack/-/notistack-1.0.0.tgz#849ac58fad484852833284ee40bda5e04fbfe649"
-  integrity sha512-kIGwVy8qs2hpcDegLhjTQMlGkJvr7OVUg6mnOcjqwKOCZhCnkMt5h53kP9bPRKQQ3UckCzhkvuEPbyMbyYyRNQ==
+notistack@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/notistack/-/notistack-1.0.5.tgz#239d5888105c89a9a7f26d75a07d279446dc1624"
+  integrity sha512-xCMG0OhzEdczmDs2lDABEiphKQMZUavdOIRAJhfIcyJkCA4UqBDANL3YCLt+mz8VbAPCeKTn76kbCmYQIqksnA==
   dependencies:
     clsx "^1.1.0"
     hoist-non-react-statics "^3.3.0"
