@@ -4922,10 +4922,10 @@ material-table@^1.69.1:
     react-beautiful-dnd "^13.0.0"
     react-double-scrollbar "0.0.15"
 
-material-ui-popup-state@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/material-ui-popup-state/-/material-ui-popup-state-1.6.1.tgz#fc1a93c9111ee20370488aef9c6f2b2da5707604"
-  integrity sha512-I1Cu8hc3RPPTZ7p946q6qQB+n68JuhoiOxclV+wft8bplYGHFLjbNmF59wQMTN6oRZD42QuVtTxDv7LIi0eB8w==
+material-ui-popup-state@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/material-ui-popup-state/-/material-ui-popup-state-1.7.1.tgz#d5856033801a7539072bf79bda396c073b86c95b"
+  integrity sha512-UMXgBBL6KgocJ70HqRnGKUEhSC1Lg1wkVyeLzTPxYrwLRmFUmY83bhOt9rVDTWBLjtaSrO/jRHVSgAu++08RIw==
   dependencies:
     "@babel/runtime" "^7.1.5"
     "@material-ui/types" "^4.1.1"
