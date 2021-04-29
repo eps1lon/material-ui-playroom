@@ -1,0 +1,43 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "04:00"
+  open-pull-requests-limit: 99
+  versioning-strategy: increase
+  ignore:
+  - dependency-name: react-window
+    versions:
+    - "> 1.8.5, < 2"
+  - dependency-name: "@material-ui/styles"
+    versions:
+    - 4.11.2
+  - dependency-name: "@babel/preset-react"
+    versions:
+    - 7.12.10
+  - dependency-name: "@babel/register"
+    versions:
+    - 7.12.10
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.12.10
+  - dependency-name: notistack
+    versions:
+    - 1.0.3
+  - dependency-name: "@babel/preset-env"
+    versions:
+    - 7.12.11
+  - dependency-name: "@material-ui/core"
+    versions:
+    - 4.11.2
+  - dependency-name: playroom
+    versions:
+    - 0.22.3
+  - dependency-name: "@babel/plugin-proposal-class-properties"
+    versions:
+    - 7.12.1
+  - dependency-name: "@date-io/date-fns"
+    versions:
+    - 2.10.6
