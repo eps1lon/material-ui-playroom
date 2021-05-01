@@ -30,7 +30,7 @@
     "glob": "^7.1.6",
     "json2mq": "^0.2.0",
     "lodash": "^4.17.21",
-    "material-table": "^1.69.1",
+    "material-table": "^1.69.3",
     "material-ui-popup-state": "^1.6.1",
     "notistack": "^1.0.5",
     "parse-prop-types": "^0.3.0",
