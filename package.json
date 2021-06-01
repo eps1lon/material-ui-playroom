@@ -45,7 +45,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-spring": "^8.0.27",
-    "react-swipeable-views": "^0.13.9",
+    "react-swipeable-views": "^0.14.0",
     "react-text-mask": "^5.4.3",
     "react-virtualized": "^9.22.2",
     "react-window": "^1.8.5",
