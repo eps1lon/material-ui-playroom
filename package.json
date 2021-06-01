@@ -41,7 +41,7 @@
     "react-dom": "^16.13.1",
     "react-draggable": "^4.4.3",
     "react-is": "^16.13.1",
-    "react-number-format": "^4.4.1",
+    "react-number-format": "^4.6.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-spring": "^8.0.27",
